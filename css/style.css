@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Condensed:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rochester&display=swap");
+h1 {
+  font-size: 0.5rem; }
+
+h2 {
+  font-size: 1rem; }
+
+h3 {
+  font-size: 1.5rem; }
+
+h4 {
+  font-size: 2rem; }
+
+h5 {
+  font-size: 2.5rem; }
+
+h6 {
+  font-size: 3rem; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 0.05rem;
+  background: #990e31; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500 !important;
+  line-height: 1.5 !important; }
+
+.no-gutters {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+/*NAVBAR*/
+.navbar {
+  height: 150px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0.5rem 4rem !important;
+  text-transform: uppercase; }
+
+.nav-link {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  color: #fff;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important; }
+
+.nav-link:hover {
+  color: #ffc500; }
+
+.navbar-toggler {
+  color: #fff;
+  font-size: 40px;
+  outline: none; }
+
+.navbar-toggler:focus {
+  outline: none; }
+
+.logo {
+  width: 150px; }
+
+.btn-nav {
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  background-color: #990e31;
+  cursor: pointer;
+  border: 1px solid #fff; }
+
+.lineas {
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  background-color: #990e31;
+  width: 20px;
+  height: 2px; }
+
+/*Nosotros*/
+.titular_nosotros {
+  font-size: 60px; }
+
+.subtitulo_nosotros--color {
+  color: #990e31;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Rochester", cursive !important; }
+
+/*Sucursales*/
+.titular_sucursales {
+  font-size: 60px;
+  line-height: 18px; }
+
+.mapa {
+  width: 70px;
+  height: 75px;
+  border-radius: 5px; }
+
+.data-fiscal {
+  width: 70px;
+  height: 80px;
+  border-radius: 5px; }
+
+/*Confiteria*/
+.titular_confiteria {
+  font-size: 60px; }
+
+.subtitulo_confiteria--color {
+  color: #990e31;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Rochester", cursive !important; }
+
+/*Eventos*/
+.titular_eventos {
+  font-size: 50px; }
+
+/*Footer*/
+.icons--Footer a i {
+  color: #fff;
+  font-size: 30px; }
+
+footer p {
+  margin-top: 20px;
+  color: #fff; }
+
+/*contacto*/
+.contact__mt--5 {
+  margin-top: 200px; }
+
+/* Style inputs contacts */
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical; }
+
+input[type="submit"] {
+  background-color: #990e31;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer; }
+
+input[type="submit"]:hover {
+  background-color: #990e31;
+  color: #ffc500; }
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px; }
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px; }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0; } }
+
+@media screen and (max-width: 576px) {
+  .navbar {
+    background-color: transparent; }
+    .navbar .nav-link {
+      padding: 0 !important;
+      color: #fff;
+      font-size: 10px !important; }
+  .carousel-control-prev {
+    display: none; }
+  .carousel-control-next {
+    display: none; }
+  .navbar-toggler {
+    position: absolute;
+    top: 1;
+    right: 10px; }
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px; }
+  .btn-nav {
+    display: block; } }
