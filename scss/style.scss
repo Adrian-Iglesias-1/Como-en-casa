@@ -225,6 +225,9 @@ input[type="submit"]:hover {
       font-size: 10px !important;
     }
   }
+  .carousel{
+    display: none;
+  }
   .carousel-control-prev {
     display: none;
   }
@@ -248,11 +251,15 @@ input[type="submit"]:hover {
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
+  
 }
+
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 991px) {
+  
 }
+
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {

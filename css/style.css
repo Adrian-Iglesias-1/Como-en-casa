@@ -196,6 +196,8 @@ input[type="submit"]:hover {
       padding: 0 !important;
       color: #fff;
       font-size: 10px !important; }
+  .carousel {
+    display: none; }
   .carousel-control-prev {
     display: none; }
   .carousel-control-next {
