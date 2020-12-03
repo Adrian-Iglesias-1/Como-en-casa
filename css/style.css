@@ -192,7 +192,7 @@ input[type="submit"]:hover {
 @media screen and (max-width: 576px) {
   .navbar {
     background-color: #990e31;
-    height: 200px; }
+    height: 100px; }
     .navbar .nav-link {
       padding: 0 !important;
       color: #fff;
