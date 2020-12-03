@@ -217,13 +217,19 @@ input[type="submit"]:hover {
 
 @media screen and (max-width: 576px) {
   .navbar {
-    background-color: transparent;
+    background-color: $color_principal;
+    height: 200px;
 
     .nav-link {
       padding: 0 !important;
       color: $color_white;
       font-size: 10px !important;
     }
+  }
+
+  .nav-brand{
+    position: sticky;
+  
   }
   .carousel{
     display: none;
