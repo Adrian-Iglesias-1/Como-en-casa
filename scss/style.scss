@@ -218,7 +218,7 @@ input[type="submit"]:hover {
 @media screen and (max-width: 576px) {
   .navbar {
     background-color: $color_principal;
-    height: 100px;
+    height: 150px;
 
     .nav-link {
       padding: 0 !important;
@@ -242,7 +242,7 @@ input[type="submit"]:hover {
   }
   .navbar-toggler {
     position: absolute;
-    top: 1;
+    top: 0;
     right: 10px;
   }
   .navbar-nav {
@@ -254,15 +254,120 @@ input[type="submit"]:hover {
   .btn-nav {
     display: block;
   }
+
+  .mt-responsive{
+    margin-top: 100px;
+  }
+
+  .display-none{
+    display: none;
+  }
 }
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
+@media (max-width: 768px) {
+  .navbar {
+    background-color: $color_principal;
+    height: 150px;
+
+    .nav-link {
+      padding: 0 !important;
+      color: $color_white;
+      font-size: 10px !important;
+    }
+  }
+  .navbar-collapse{
+    margin-left: 50%;
+    
+  }
+
+  .nav-brand{
+    position: sticky;
+  
+  }
+  .carousel{
+    display: none;
+  }
+  .carousel-control-prev {
+    display: none;
+  }
+  .carousel-control-next {
+    display: none;
+  }
+  .navbar-toggler {
+    position: absolute;
+    top: 0;
+    right: 10px;
+  }
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+  }
+
+  .btn-nav {
+    display: block;
+  }
+
+  .mt-responsive{
+    margin-top: 100px;
+  }
+
+  .display-none{
+    display: none;
+  }
   
 }
 
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 991px) {
+@media (max-width: 991px) {
+  .navbar {
+    background-color: $color_principal;
+    height: 150px;
+
+    .nav-link {
+      
+      padding: 0 !important;
+      color: $color_white;
+      font-size: 10px !important;
+    }
+  }
+
+  .nav-brand{
+    position: sticky;
+  
+  }
+  .carousel{
+    display: none;
+  }
+  .carousel-control-prev {
+    display: none;
+  }
+  .carousel-control-next {
+    display: none;
+  }
+  .navbar-toggler {
+    position: absolute;
+    top: 0;
+    right: 10px;
+  }
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+  }
+
+  .btn-nav {
+    display: block;
+  }
+
+  .mt-responsive{
+    margin-top: 100px;
+  }
+
+  .display-none{
+    display: none;
+  }
   
 }
 
