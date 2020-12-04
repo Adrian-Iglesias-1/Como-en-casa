@@ -219,14 +219,20 @@ input[type="submit"]:hover {
   .navbar {
     background-color: $color_principal;
     height: 150px;
+   
 
-    .nav-link {
+  }
+  .nav-link {
       padding: 0 !important;
       color: $color_white;
-      font-size: 10px !important;
+      font-size: 8px !important;
+      
     }
-  }
-
+  
+    .navbar-nav{
+      display: flex;
+      justify-content: flex-start!important;
+    }
   .nav-brand{
     position: sticky;
   
@@ -245,11 +251,7 @@ input[type="submit"]:hover {
     top: 0;
     right: 10px;
   }
-  .navbar-nav {
-    display: flex;
-    flex-direction: row;
-    margin-top: 15px;
-  }
+  
 
   .btn-nav {
     display: block;
@@ -262,6 +264,8 @@ input[type="submit"]:hover {
   .display-none{
     display: none;
   }
+
+  
 }
 // Medium devices (tablets, 768px and up)
 @media (max-width: 768px) {

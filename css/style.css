@@ -193,10 +193,13 @@ input[type="submit"]:hover {
   .navbar {
     background-color: #990e31;
     height: 150px; }
-    .navbar .nav-link {
-      padding: 0 !important;
-      color: #fff;
-      font-size: 10px !important; }
+  .nav-link {
+    padding: 0 !important;
+    color: #fff;
+    font-size: 8px !important; }
+  .navbar-nav {
+    display: flex;
+    justify-content: flex-start !important; }
   .nav-brand {
     position: sticky; }
   .carousel {
@@ -209,10 +212,6 @@ input[type="submit"]:hover {
     position: absolute;
     top: 0;
     right: 10px; }
-  .navbar-nav {
-    display: flex;
-    flex-direction: row;
-    margin-top: 15px; }
   .btn-nav {
     display: block; }
   .mt-responsive {
