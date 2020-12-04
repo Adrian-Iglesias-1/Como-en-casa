@@ -192,7 +192,7 @@ input[type="submit"]:hover {
 @media screen and (max-width: 576px) {
   .navbar {
     background-color: #990e31;
-    height: 150px; }
+    height: 200px; }
   .nav-link {
     padding: 0 !important;
     color: #fff;
@@ -215,14 +215,14 @@ input[type="submit"]:hover {
   .btn-nav {
     display: block; }
   .mt-responsive {
-    margin-top: 100px; }
+    margin-top: 200px; }
   .display-none {
     display: none; } }
 
 @media (max-width: 768px) {
   .navbar {
     background-color: #990e31;
-    height: 150px; }
+    height: 200px; }
     .navbar .nav-link {
       padding: 0 !important;
       color: #fff;
@@ -248,14 +248,14 @@ input[type="submit"]:hover {
   .btn-nav {
     display: block; }
   .mt-responsive {
-    margin-top: 100px; }
+    margin-top: 200px; }
   .display-none {
     display: none; } }
 
 @media (max-width: 991px) {
   .navbar {
     background-color: #990e31;
-    height: 150px; }
+    height: 200px; }
     .navbar .nav-link {
       padding: 0 !important;
       color: #fff;
@@ -279,6 +279,6 @@ input[type="submit"]:hover {
   .btn-nav {
     display: block; }
   .mt-responsive {
-    margin-top: 100px; }
+    margin-top: 200px; }
   .display-none {
     display: none; } }
