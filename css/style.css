@@ -196,6 +196,45 @@ input[type="submit"]:hover {
     width: 100%;
     margin-top: 0; } }
 
+@media only screen and (min-width: 320px) and (max-width: 574px) {
+  .flex-movil {
+    width: 100%;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    margin: auto;
+    padding-left: 100px; }
+  .navbar {
+    background-color: #990e31;
+    height: 200px; }
+  .nav-link {
+    padding: 0 !important;
+    color: #fff;
+    font-size: 8px !important; }
+  .navbar-nav {
+    display: flex;
+    justify-content: flex-start !important; }
+  .nav-brand {
+    position: sticky; }
+  .carousel {
+    display: none; }
+  .carousel-control-prev {
+    display: none; }
+  .carousel-control-next {
+    display: none; }
+  .navbar-toggler {
+    position: absolute;
+    top: 0;
+    right: 10px; }
+  .btn-nav {
+    display: block; }
+  .mt-responsive {
+    margin-top: 200px; }
+  .display-none {
+    display: none; } }
+
 @media screen and (max-width: 576px) {
   .navbar {
     background-color: #990e31;
