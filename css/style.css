@@ -134,8 +134,7 @@ h6 {
 .img-confiteria {
   background-image: url("../img/facturas.jpg");
   background-size: cover;
-  background-position: center;
-  height: auto; }
+  background-position: center; }
 
 .subtitulo_confiteria--color {
   color: #990e31;
