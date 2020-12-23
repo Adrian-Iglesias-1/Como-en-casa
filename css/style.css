@@ -210,16 +210,20 @@ input[type="submit"]:hover {
 @media screen and (max-width: 576px) {
   .navbar {
     background-color: #990e31;
-    height: 200px; }
+    height: 250px !important; }
   .nav-link {
-    padding: 0 !important;
-    color: #fff;
-    font-size: 8px !important; }
+    padding: 10px !important;
+    color: #fff; }
+    .nav-link .nav-link a {
+      font-size: 20px; }
   .navbar-nav {
     display: flex;
-    justify-content: flex-start !important; }
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important; }
   .nav-brand {
-    position: sticky; }
+    position: sticky;
+    height: 150px; }
   .carousel {
     display: none; }
   .carousel-control-prev {
@@ -241,10 +245,6 @@ input[type="submit"]:hover {
   .navbar {
     background-color: #990e31;
     height: 200px; }
-    .navbar .nav-link {
-      padding: 0 !important;
-      color: #fff;
-      font-size: 10px !important; }
   .nav-brand {
     position: sticky; }
   .carousel {
@@ -275,7 +275,7 @@ input[type="submit"]:hover {
     .navbar .nav-link {
       padding: 0 !important;
       color: #fff;
-      font-size: 10px !important; }
+      font-size: 15px !important; }
   .nav-brand {
     position: sticky; }
   .carousel {
