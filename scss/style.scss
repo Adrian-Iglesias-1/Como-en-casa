@@ -152,6 +152,7 @@ h6 {
   
 }
 
+
 .subtitulo_confiteria--color {
   color: $color_principal;
   font-size: 30px;
@@ -280,7 +281,7 @@ input[type="submit"]:hover {
   .navbar-toggler {
     position: absolute;
     top: 0;
-    right:10px;
+    right:5px;
   }
   
 
@@ -305,14 +306,11 @@ input[type="submit"]:hover {
     height: 200px;
 
     .nav-link {
+      
       padding: 0 !important;
       color: $color_white;
       font-size: 10px !important;
     }
-  }
-  .navbar-collapse{
-    margin-left: 50%;
-    
   }
 
   .nav-brand{
@@ -352,6 +350,7 @@ input[type="submit"]:hover {
   }
   
 }
+
 
 
 // Large devices (desktops, 992px and up)
