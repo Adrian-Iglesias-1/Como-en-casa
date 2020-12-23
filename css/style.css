@@ -128,6 +128,10 @@ h6 {
   border-radius: 5px; }
 
 /*Confiteria*/
+.modal-title {
+  display: block;
+  margin-left: 30%; }
+
 .titular_confiteria {
   font-size: 60px; }
 
@@ -141,6 +145,9 @@ h6 {
   font-size: 30px;
   font-weight: 400;
   font-family: "Rochester", cursive !important; }
+
+.btn-nav:hover {
+  color: #ffc500; }
 
 /*Eventos*/
 .titular_eventos {
