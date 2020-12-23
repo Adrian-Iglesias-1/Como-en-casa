@@ -291,7 +291,8 @@ input[type="submit"]:hover {
   .navbar-nav {
     display: flex;
     flex-direction: row;
-    margin-top: 15px; }
+    margin-top: 15px;
+    justify-content: center; }
   .btn-nav {
     display: block; }
   .mt-responsive {

@@ -95,12 +95,11 @@ h6 {
 
 /*Nosotros*/
 
-.img-nosotros{
-  background-image: url('../img/img-nosotros.jpg');
+.img-nosotros {
+  background-image: url("../img/img-nosotros.jpg");
   background-size: cover;
   background-position: center;
   object-fit: cover;
-  
 }
 
 .titular_nosotros {
@@ -118,11 +117,11 @@ h6 {
   line-height: 18px;
 }
 
-.titulo_sucursal--tamaño{
+.titulo_sucursal--tamaño {
   font-size: 25px;
 }
 
-.texto_sucursal--tamaño{
+.texto_sucursal--tamaño {
   font-size: 20px;
 }
 
@@ -144,14 +143,11 @@ h6 {
   font-size: 60px;
 }
 
-.img-confiteria{
-  background-image: url('../img/facturas.jpg');
+.img-confiteria {
+  background-image: url("../img/facturas.jpg");
   background-size: cover;
   background-position: center;
-  
-  
 }
-
 
 .subtitulo_confiteria--color {
   color: $color_principal;
@@ -240,44 +236,31 @@ input[type="submit"]:hover {
   }
 }
 
-  
-
-
 @media screen and (max-width: 576px) {
-  
-  
- 
-  
   .navbar {
     background-color: $color_principal;
-    height: 250px!important;
-   
-
+    height: 250px !important;
   }
   .nav-link {
-      padding: 10px !important;
-      color: $color_white;
-      
-      .nav-link a {
-        font-size: 20px;
-      }
-      
-    }
-  
-    .navbar-nav{
-      display: flex;
-      flex-direction: column !important;
-      justify-content: center!important;
-      align-items: center!important;
-     
+    padding: 10px !important;
+    color: $color_white;
 
+    .nav-link a {
+      font-size: 20px;
     }
-  .nav-brand{
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .nav-brand {
     position: sticky;
     height: 150px;
-  
   }
-  .carousel{
+  .carousel {
     display: none;
   }
   .carousel-control-prev {
@@ -289,38 +272,32 @@ input[type="submit"]:hover {
   .navbar-toggler {
     position: absolute;
     top: 0;
-    right:5px;
+    right: 5px;
   }
-  
 
   .btn-nav {
     display: block;
   }
 
-  .mt-responsive{
+  .mt-responsive {
     margin-top: 200px;
   }
 
-  .display-none{
+  .display-none {
     display: none;
   }
-
-  
 }
 // Medium devices (tablets, 768px and up)
 @media (max-width: 768px) {
   .navbar {
     background-color: $color_principal;
     height: 200px;
-
-    
   }
 
-  .nav-brand{
+  .nav-brand {
     position: sticky;
-  
   }
-  .carousel{
+  .carousel {
     display: none;
   }
   .carousel-control-prev {
@@ -344,37 +321,33 @@ input[type="submit"]:hover {
     display: block;
   }
 
-  .mt-responsive{
+  .mt-responsive {
     margin-top: 200px;
   }
 
-  .display-none{
+  .display-none {
     display: none;
   }
-  
 }
-
-
 
 // Large devices (desktops, 992px and up)
 @media (max-width: 991px) {
   .navbar {
     background-color: $color_principal;
     height: 200px;
+    
 
     .nav-link {
-      
       padding: 0 !important;
       color: $color_white;
       font-size: 15px !important;
     }
   }
 
-  .nav-brand{
+  .nav-brand {
     position: sticky;
-  
   }
-  .carousel{
+  .carousel {
     display: none;
   }
   .carousel-control-prev {
@@ -392,22 +365,21 @@ input[type="submit"]:hover {
     display: flex;
     flex-direction: row;
     margin-top: 15px;
+    justify-content: center;
   }
 
   .btn-nav {
     display: block;
   }
 
-  .mt-responsive{
+  .mt-responsive {
     margin-top: 200px;
   }
 
-  .display-none{
+  .display-none {
     display: none;
   }
-  
 }
-
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
