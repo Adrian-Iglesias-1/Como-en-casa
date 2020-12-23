@@ -95,7 +95,7 @@ h6 {
   background-image: url("../img/img-nosotros.jpg");
   background-size: cover;
   background-position: center;
-  width: fit-content; }
+  object-fit: cover; }
 
 .titular_nosotros {
   font-size: 60px; }
@@ -130,6 +130,12 @@ h6 {
 /*Confiteria*/
 .titular_confiteria {
   font-size: 60px; }
+
+.img-confiteria {
+  background-image: url("../img/facturas.jpg");
+  background-size: cover;
+  background-position: center;
+  height: auto; }
 
 .subtitulo_confiteria--color {
   color: #990e31;
