@@ -71,6 +71,15 @@ h6 {
 .navbar-toggler:focus {
   outline: none; }
 
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 0;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap; }
+
 .logo {
   width: 150px; }
 
@@ -263,9 +272,6 @@ input[type="submit"]:hover {
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important; }
-  .nav-brand {
-    position: sticky;
-    height: 150px; }
   .carousel {
     display: none; }
   .carousel-control-prev {
@@ -289,8 +295,6 @@ input[type="submit"]:hover {
   .navbar {
     background-color: #990e31;
     height: 200px; }
-  .nav-brand {
-    position: sticky; }
   .carousel {
     display: none; }
   .carousel-control-prev {
@@ -320,8 +324,6 @@ input[type="submit"]:hover {
       padding: 0 !important;
       color: #fff;
       font-size: 15px !important; }
-  .nav-brand {
-    position: sticky; }
   .carousel {
     display: none; }
   .carousel-control-prev {
