@@ -127,6 +127,10 @@ h6 {
   height: 80px;
   border-radius: 5px; }
 
+.border_suc--color {
+  border: solid 2px #ae0404;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px !important; }
+
 /*Confiteria*/
 .modal-title {
   display: block;
