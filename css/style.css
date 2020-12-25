@@ -75,6 +75,7 @@ h6 {
   width: 150px; }
 
 .btn-nav {
+  border-radius: 5px;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   color: #fff;
@@ -150,7 +151,18 @@ h6 {
   font-weight: 400;
   font-family: "Rochester", cursive !important; }
 
-.btn-nav:hover {
+.btn-nav--esp {
+  width: 180px;
+  height: 50px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  background-color: #990e31;
+  cursor: pointer;
+  border: 1px solid #fff; }
+
+.btn-nav--esp:hover {
   color: #ffc500; }
 
 /*Eventos*/
@@ -164,6 +176,25 @@ h6 {
 
 footer p {
   margin-top: 20px;
+  color: #fff; }
+
+.btn-nav--top {
+  color: #fff;
+  background: none;
+  border: 1px solid #fff;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  outline: none !important; }
+
+.btn-nav--top:hover {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  -webkit-transform: translateY(-0.25em);
+  transform: translateY(-0.25em); }
+
+.btn-nav--top a {
+  text-decoration: none;
   color: #fff; }
 
 /*contacto*/
